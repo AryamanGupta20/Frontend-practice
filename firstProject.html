@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h1>University form</h1>
+        <p>please fill out the form</p>
+        <hr>
+        <h2>Personal details</h2>
+        
+        <form>
+            <label for="first">First Name</label>
+            <input type="text" name="userName" id="first">
+
+            <br><br>
+
+            <label for="second">Last Name</label>
+            <input type="text" name="userName" id="second">
+
+            <br><br>
+
+            <label for="dob">Date Of Birth</label>
+            <input type="date" name="userDob" id="dob">
+
+            <br><br>
+<h3>Gender</h3>
+            <label for="male">Male</label>
+            <input type="radio" name="userGender" id="Male" value="male">
+
+            <label for="female">Female</label>
+            <input type="radio" name="userGender" id="female" value="female">
+
+            <br><br>
+
+            <h3>Upload your Photo</h3>
+            <input type="file" name="userPhoto" id="image">
+            <hr>
+
+            <h2>Conatct info</h2>
+
+            <label for="mail">Email</label>
+            <input type="email" name="email" id="mail">
+
+            <br><br>
+
+            <label for="number">Phone Number</label>
+            <input type="number" name="number" id="number">
+
+            <br><br>
+            <label for="address">Mailing Address</label>
+           <textarea name="address" id="address"></textarea>
+
+           <br><br>
+<hr>
+           <h2>Academic information</h2>
+
+           <label for="course">Select course</label>
+           <select name="course" id="course">
+            <option value="Cse">CSE</option>
+            <option value="BCA">BCA</option>
+            <option value="MBa">MBA</option>
+            <option value="Medical">Medical</option>
+           </select>
+
+           <hr>
+           <h2>Create your Account</h2>
+           <label for="pass">Password</label>
+           <input type="password" name="password" id="pass">
+
+           <br><br>
+
+           <hr>
+
+           <button type="submit">Register</button>
+        </form>
+</body>
+</html>
