@@ -7,17 +7,43 @@
 </head>
 <body>
     
+    <!-- form tag is to give command to create form -->
     <form> 
-        <label>Name :</label>
-        <input type="text">
+
+        <!-- label is used to show the details -->
+        <label for="name">Name :</label>
+
+        <!-- input is for userinput to write under the label
+         also name refers to user attributes with username to be uderstandable in database -->
+        <input type="text" name="userName" id="name">
         
         <br><br>
 
-        <label>Age :</label>
-        <input type="number">
+        <label for="Age">Age :</label>
+        <input type="number" name="userAge" id="Age" >
 
         <br><br>
 
+        <label for="password">Password :</label>
+        <input type="password" name="userPassword" id="password">
+
+        <br><br>
+
+        <label for="Male">Male</label>
+        <input type="radio" name="userGender" id="Male" value="male"> 
+
+        <label for="Female">Female</label>
+        <input type="radio" name="userGender" id="Female" value="female"> 
+        <br><br>
+
+        <label for="c++">C++</label>
+        <input type="checkbox" name="Subject" id="c++" value="c++">
+
+        <label for="math">Math</label>
+        <input type="checkbox" name="Subject" id="math" value="math">
+
+        <br><br>
+        <!-- submit is to submit the form -->
         <input type="submit">
     </form>
 
