@@ -1,6 +1,38 @@
-h1{
-    background-color: blueviolet;
+h1
+{
+    background-color: aqua;
+    height: 50px;
+    width: 300px;
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: blueviolet;
+    padding: 10px;
+    margin: 30px;
 }
-h2{
-    background-color: rgb(14, 237, 33);
+
+h2
+{
+    background-color: pink;
+border-top: 5px solid blueviolet;
+
+/* margin with 4 move in clockwise direction */
+margin: 10px 20px 30px 40px;
+border-radius: 50px;
+
+}
+
+#first
+{
+   background-color: aquamarine;
+   padding: 20px;
+   margin: 5px;
+   border: 5px solid blueviolet;       
+}
+
+#second
+{
+    background-color: brown;
+    padding: 20px;
+    margin: 10px;
 }
