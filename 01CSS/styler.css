@@ -1,48 +1,12 @@
-/* tag element selector */
-/* ul{
-    background-color: rgb(255, 0, 195);
-}
-h1{
-    background-color: aliceblue;
-} */
-
-/* id basis selector */
-/* #first{
-    background-color: blue;
-}
-#second{
-    background-color: blueviolet;
-} */
-
-/* class based selection */
-/* #third{
+/* its an inline element which only cover span word coloring */
+span{
     background-color: aquamarine;
-} */
+}
 
-/* group based slections = multiple selections*/
-/* .third ,#first{
-    background-color: brown;
-} */
-
-/* font size */
+/* its an block element which cover full length for coloring */
 h1{
-    font-size: 40px;
-}
-
-h2{
-    font-size: 1em;
-}
-
-h2{
-    font-size: 2rem;
-}
-
-li{
-     font-size: 50%;  
-}
-
-h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 100;
-    font-style: italic;
+    background-color: blueviolet;
+    height: 10px;
+    width: 40px;                                                        
+    
 }
