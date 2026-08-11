@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 h1{
     background-color: aqua;
 }
@@ -8,5 +12,27 @@ h1{
 span{
     background-color: orange;
     position: relative;
-    left: 50px;
+    /* left: 80px;
+    top: 50px;
+    bottom: 100px;
+    right: 30px; */
+}
+
+h3{
+    background-color: aquamarine;
+    position: fixed;
+    top: 0px;
+    right: 40px;
+}
+
+h4{
+    background-color: blue;
+    position: sticky;
+    top: 10px;
+}
+
+p{
+  background-color: pink;
+  position: absolute;
+  left: 50px;
 }
