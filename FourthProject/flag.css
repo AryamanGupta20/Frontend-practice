@@ -1,0 +1,36 @@
+#yellowflag{
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    left: 400px;
+    top: 200px;
+    background-color: yellow;
+}
+#blueflag1{
+    height: 80px;
+    width: 80px;
+    background-color: blue;
+    position: absolute;
+}
+#blueflag2{
+    height: 80px;
+    width: 80px;
+    background-color: blue;
+    position: absolute;
+    top: 120px;
+}
+#blueflag3{
+    height: 80px;
+    width: 280px;
+    background-color: blue;
+    position: absolute;
+    left: 120px;
+}
+#blueflag4{
+    height: 80px;
+    width: 280px;
+    background-color: blue;
+    position: absolute;
+    left: 120px;
+    
+}
