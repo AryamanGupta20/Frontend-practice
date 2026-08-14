@@ -1,0 +1,28 @@
+#first{
+    height: 300px;
+    width: 300px;
+    position: fixed;
+    background-color: white;
+}
+#second{
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    background-color: rgb(255, 183, 0);
+}
+#third{
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    background-color: rgba(55, 255, 0, 0.877);
+    top: 200px;
+}
+#circle{
+    height: 80px;
+    width: 80px;
+    background-color: blue;
+    position: absolute;
+    left: 110px;
+    top: 110px;
+    border-radius: 80px;
+}
