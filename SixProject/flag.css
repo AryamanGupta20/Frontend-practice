@@ -43,13 +43,15 @@
     background-color: rgb(254, 252, 252);
 position: absolute;
 }
-#box1{
+#box1
+{
     height: 73px;
     width: 80px;
     background-color: blue;
     position: absolute;
 }
-#box2{
+#box2
+{
     height: 73px;
     width: 80px;
     background-color: blue;
