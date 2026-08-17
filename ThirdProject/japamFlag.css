@@ -1,10 +1,12 @@
-#flag{
+#flag
+{
     height: 200px;
     width: 300px;
     background-color: aliceblue;
     position: absolute;
 }
-#red{
+#red
+{
     background-color: red;
     position: absolute;
     height: 100px;
